@@ -86,7 +86,7 @@ header a {
 
 }
 
-.container .list .list-item .buttons button:hover{
+.container .list .list-item .buttons button:hover {
     background-color: transparent;
     border: 1px solid #eee;
     color: #eee;
@@ -158,4 +158,4 @@ header a {
     background-color: #eee;
     color: #000;
     transition: 0.7s;
-} 
+}

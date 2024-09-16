@@ -8,11 +8,11 @@ let thumb = document.querySelector('.container .thumb')
 //btnNext.onclick = () => moveItemsOnClick('next')
 //btnBack.onclick = () => moveItemsOnClick('back')
 
-function moveItemsOnClick(type){
+function moveItemsOnClick(type) {
     let listItems = document.querySelectorAll('.list .list-items')
     let thumbItems = document.querySelectorAll('.list .thumb-items')
 
-    if(type === 'next'){
+    if (type === 'next') {
         list.appendChild(listItems[0])
         thumb.appendChild(thumbItems[0])
         container.classList.add('next')
@@ -22,8 +22,8 @@ function moveItemsOnClick(type){
         container.classList.add('back')
     }
 
-setTimeout(() => {
-    container.classList.remove('next')
-    container.classList.remove('back')
-}, 3000)
+    setTimeout(() => {
+        container.classList.remove('next')
+        container.classList.remove('back')
+    }, 3000)
 }
